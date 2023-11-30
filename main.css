@@ -14,7 +14,6 @@ a {
 } 
 .background {
     min-height: 100vh;
-    background: url('../img/Carousel2.jpg') no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -153,7 +152,7 @@ ul {
     }
 
     
-    /*** about page ***/
+    /*** header ***/
 
     #header {
         position: relative;
@@ -180,7 +179,7 @@ ul {
     .from-to p a:first-child:hover {
         color: #c0a600;
     }
-
+    
     .from-to a {
         margin-left: 10px;
         margin-right: 10px;
@@ -189,7 +188,14 @@ ul {
     .color-dark {
         color:#101010
     }
-
+    .link button{
+        background-color: #152602;
+        border: none;
+        border-radius: 20px;
+    }
+    .link button a{
+        color: white;
+    }
 
     /**news page**/
 
