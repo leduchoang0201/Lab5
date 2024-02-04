@@ -8,7 +8,6 @@
     font-family: 'Be Vietnam Pro', sans-serif;
     width:auto;
 }
-
 a {
     text-decoration: none;
 } 
@@ -17,18 +16,15 @@ a {
     background-size: cover;
     background-position: center;
 }
-
 .slider-text {
     text-align: center;
     padding-top: 300px;
 }
-
 .slider-text .sli-title {
     font-size: 70px;
     color:#fffc9c;
     font-style:italic;
 }
-
 .slider-text .sli-content {
     font-size: 80px;
     font-style:italic;
@@ -38,13 +34,11 @@ a {
     color:#c4fb72;
     text-shadow: 2px 2px 5px #877a02;
 }
-
 .sli-btn {
     font-size: 3em;
     padding-top: 50px;
     
 }
-
 ul {
     list-style: none;
     margin-left: 0;
@@ -62,13 +56,11 @@ ul {
     align-items: center;
     z-index: 999;
 }
-
 .logo {
     font-size: 2rem;
     color: #fff;
     font-weight: 700;
 }
-
 .navbars a {
     font-size: 1.05rem;
     color:#fff;
@@ -79,29 +71,22 @@ ul {
 .navbars svg {
     fill: #fff;
 }
-
 .icon {
     margin: 0 0 5px 7px;
 }
-
-
-
 .navbars a:hover {
     color: #c0a600;
 }
-
 .icons {
     font-size: 2rem;
     color: #fff;
     cursor: pointer;
     display: none;    
 }
-
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -110,22 +95,18 @@ ul {
     border-radius: 15%;
     z-index: 1;
   }
-  
   .dropdown-content a {
     color: #000000;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
-  
     .dropdown-content a:hover {
     background: rgba(0, 0, 0, .5);
     }
-  
     .dropdown:hover .dropdown-content {
         display: block;
     }
-
     .menu {
         text-align: center;
         margin-top:3%;
@@ -160,14 +141,12 @@ ul {
         backdrop-filter: blur(50px);
         background-color: #152602;
     }
-
     .top-review {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
     background: url(../img/background-taste.webp);
     }
-
     .from-to {
         display: flex;
         flex-direction: row;
@@ -175,60 +154,41 @@ ul {
         justify-content:center;
         
     }
-
     .from-to p a:first-child:hover {
         color: #c0a600;
     }
-    
     .from-to a {
         margin-left: 10px;
         margin-right: 10px;
     }
-
     .color-dark {
         color:#101010
     }
-    .link button{
-        background-color: #152602;
-        border: none;
-        border-radius: 20px;
-    }
-    .link button a{
-        color: white;
-    }
-
     /**news page**/
-
     .flex-row {
         display: flex;
         flex-direction: row;
     }
-
     .flex-col {
         display: flex;
         flex-direction: column;
     }
-
     .row-fix .col-fix {
         padding-left: 10px;
         padding-right: 10px;
         margin-bottom: 20px;
     }
-
     .item- {
         overflow: hidden;
         background: #fff;
         padding: 10px;
     }
-
     .info h3 {
         font-size:x-large;
     }
-
     .see {
         color: #877a02;
     }
-
     .item-blog .block-thumb .thumb {
         position: relative;
         overflow: hidden;
@@ -241,63 +201,51 @@ ul {
         border-radius: 10px;
         margin-bottom: 10px;
     }
-
     .item-blog .block-thumb .thumb img {
         width: auto !important;
         max-height: 100%;
         position: absolute;
         top: 0; bottom: 0; left: 0; right: 0; margin: auto;   
     }
-
     .row {
         display: flex;
         flex-wrap: wrap;
         margin-right: -15px;
         margin-left: -15px;
     }
-
     .info a{
         color:#0b0b0b;
     }
-
     .info a:hover {
         color: #877a02;
     }
-
     .right-content {
         margin:20px 0 0 20px;
     }
-
     .right-content ul {
         margin: 10px 0 30px -30px;
     }
-
     .right-content ul li {
         margin-top: 20px;
     }
-
     .danh_muc {
         color:#0b0b0b
     }
     .danh_muc:hover {
         color:#877a02;  
     }
-
     .blog_new {
         border-radius: 5px;
         background: #fff;
     }
-
     .blog_new img {
         height: 100px;
         border-radius: 5%;
         margin-right: 20px;
     }
-
     .backtop.show {
         opacity: 1;
     }
-
     /**back to top**/
     .backtop.show {
         opacity: 1;
@@ -307,7 +255,6 @@ ul {
         height: 30px;
         color: #fff;
     }
-
     .backtop { 
         position: fixed; 
         bottom: 100px; top: auto !important; right: 20px; 
